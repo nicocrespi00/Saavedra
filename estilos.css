@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Header*/
+header img{
+    height: 700px;
+    width: 100%;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px ;
+    object-fit: cover;
+}
+
+#cabecera{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#cabecera img{
+    height: 100px;
+    width: 100px;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+#cabecera ul{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+#cabecera ul li{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+    
+}
+
+#cabecera ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+#titulo{
+    position: absolute;
+    margin-top: 400px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+#titulo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-weight: 800;
+    color: rgb(73, 72, 72);
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+#titulo h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(155, 154, 154);
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+#cuerpo{
+    display: flex;
+    flex-flow: column;
+}
+
+#primero{
+    width: 100%;
+    height: 700px;
+}
+
+#primero img{
+    width: 100%;
+    height: 700px;
+}
+
+#primero #primero2{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+
+#primero2 h1{
+    color: white;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+#primero2 h2{
+    color: white;
+    margin-left: 100px;
+}
+
+#segundo{
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+}
+
+
+#segundo2{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 700px;
+}
+
+#brujulatexto{
+    align-self: center;
+}
+
+#brujulatexto h1{
+    color: black;
+}
+
+#brujulatexto h2{
+    color: black;
+}
+
+#segundo2 img{
+    align-self: center;
+}
+
+#tercero{
+    width: 100%;
+    height: 700px;
+}
+
+#tercero img{
+    width: 100%;
+    height: 700px;
+}
+
+#tercero #tercero2{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 700px;
+    align-items: flex-end;
+}
+
+#tercero2 h1{
+    color: white;
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 50%;
+}
+
+#tercero2 h2{
+    color: white;
+    margin-right: 100px;
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: rgb(73, 72, 72);
+}
+
+footer img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
