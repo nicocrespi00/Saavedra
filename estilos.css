@@ -58,28 +58,41 @@ header img{
     margin-top: 400px;
     width: 100%;
     display: flex;
+    justify-content: flex-end;
+}
+
+#cuadro{
+    border: 1px solid #05050500;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.274);
+    margin-right: 3%;
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
     flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #titulo h1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-weight: 800;
     color: rgb(26, 24, 24);
     align-self: flex-end;
-    margin-right: 7%;
-    width: 60%;
+    width: 90%;
+    margin-right: 35px;
 }
 
 #titulo h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
-    color: rgb(228, 222, 222);
+    color:rgb(26, 24, 24);
     align-self: flex-end;
-    margin-right: 7%;
-    width: 60%;
+    width: 90%;
+    margin-right: 35px;
+
 }
 
 #cuerpo{
@@ -110,21 +123,33 @@ header img{
     justify-content: center;
     width: 100%;
     height: 700px;
+    margin-top: 150px;
+}
+
+#cuadro1{
+    border: 1px solid #05050500;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.374);
+    margin-right: 3%;
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
 }
 
 #primero2 h1{
     color: rgb(0, 0, 0);
-    margin-top: 50px;
-    margin-left: 210px;
-    width: 60%;
+    width: 92%;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
 #primero2 h2{
     color: rgb(8, 8, 8);
-    margin-left: 210px;
-    width: 60%;
+    width: 92%;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -154,14 +179,14 @@ header img{
 }
 
 #brujulatexto h1{
-    color: rgb(73, 72, 72);
+    color: #276635;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
 #brujulatexto h2{
-    color: #276635;
+    color: rgb(73, 72, 72);
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -176,9 +201,9 @@ header img{
 
 #segundo2 img:hover {
     border-radius:50%;
-    box-shadow: 0px 0px 15px 15px #ec731e;
+    box-shadow: 0px 0px 15px 15px #276635;
     transform: rotate(360deg);
-    transition: 2s;
+    transition: 3s;
 }
 
 #tercero{
@@ -200,21 +225,33 @@ header img{
     width: 100%;
     height: 700px;
     align-items: flex-end;
+    margin-top: 50px;
+}
+
+#cuadro2{
+    border: 1px solid #05050500;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.374);
+    margin-right: 3%;
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
 }
 
 #tercero2 h1{
     color: white;
-    margin-right: 100px;
-    margin-top: 100px;
-    width: 50%;
+    width: 90%;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
 #tercero2 h2{
     color: white;
-    margin-right: 35px;
-    width: 54.7%;
+    width: 90%;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -227,12 +264,6 @@ footer{
     background-color: rgb(73, 72, 72);
     align-items: center;
     height: 150px;
-}
-
-footer img{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
 }
 
 #copyright{
@@ -280,3 +311,10 @@ footer ul li{
     justify-content: center;
     display: flex;
 }
+
+#foto img{
+    height: 100px;
+    width: all;    
+    border-radius: 50%;
+}
+
